@@ -15,7 +15,7 @@ from wxpy import *
 # 实例化，并登录微信
 bot = Bot(cache_path=True)
 # 查找到要使用机器人来聊天的好友
-my_friend = ensure_one(bot.search(u'何勺叶'))
+my_friend = ensure_one(bot.search(u'小明'))
 # 调用图灵机器人API
 tuling = Tuling(api_key='f51f9df3c3fc4fa4a38de5dc043f558d')
 # tuling = Tuling(api_key='4a0488cdce684468b95591a641f0971d')
